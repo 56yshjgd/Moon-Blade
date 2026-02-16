@@ -18,7 +18,7 @@ end)
 local WindUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/454244513/WindUIFix/refs/heads/main/main.lua"))()
 local Window = WindUI:CreateWindow({
     Title = "tnine team",
-    Author = "by messy/pig hacker",
+    Author = "二改:Moon Blade",
     Folder = "HackerHub",
     Size = UDim2.fromOffset(200, 395),
     Transparent = true,
@@ -35,7 +35,7 @@ local Window = WindUI:CreateWindow({
 })
 
 Window:EditOpenButton({
-    Title = "免费用户",
+    Title = "尊贵的付费用户✦",
     --Icon = "",
     CornerRadius = UDim.new(0,16),
     StrokeThickness = 2.35,
@@ -110,7 +110,7 @@ Tabs.BladeTab:Paragraph({
 
 Tabs.BladeTab:Paragraph({
     Title = "关于作者",
-    Desc = "此公益脚本来自messy 认准messy的一切公益项目  QQ群号717897412",
+    Desc = "此公益脚本来自messy",
     Image = "sword",
     ImageSize = 42,
 })
